@@ -3,10 +3,10 @@
         email = "juant.garcia@datadoghq.com"
         signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPHxArMI/L1PsAg7THPFrSV9//zyf+P6VMCCMWO5yZqp"
 [commit]
-	gpgsign = true
+		gpgsign = true
 [tag]
-	gpgSign = true
+		gpgSign = true
 [gpg]
-	format = ssh
+		format = ssh
 [url "git@github.com:DataDog/"]
         insteadOf = https://github.com/DataDog/
