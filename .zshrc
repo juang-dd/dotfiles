@@ -23,3 +23,12 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 alias claude="ddtool auth login --datacenter us1.ddbuild.io && claude --model opus"x
+alias gpl="git pull origin"
+alias gps="git push origin"
+alias gchb="git checkout -b"
+alias gch="git checkout"
+alias gcm="git commit -m"
+alias gr="git rebase"
+alias gs="git status"
+alias gdf="git diff"
+alias gdfs="git diff --staged"
