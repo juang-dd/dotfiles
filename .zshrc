@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-alias claude="ddtool auth login --datacenter us1.ddbuild.io && claude --model opus"x
+alias claude="ddtool auth login --datacenter us1.ddbuild.io && claude --model opus"
 alias gpl="git pull origin"
 alias gps="git push origin"
 alias gchb="git checkout -b"
