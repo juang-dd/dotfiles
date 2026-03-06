@@ -14,6 +14,7 @@ cd ~/dd/experimental/users/juant.garcia/dotfiles
 make force-install
 
 # Symlink experimental skills
+mkdir ~/.claude/skills
 for skill in ~/dd/experimental/teams/aaa-user/skills/*/; do
   ln -sf "$skill" ~/.claude/skills/$(basename "$skill")
 done
